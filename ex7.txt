@@ -1,0 +1,4 @@
+1)set first index as minimumIndex
+2)compare it to next element if its value is less than minimum set it index to minimumIndex and process goes until last element
+3)set first index of unsorted list to minimumIndex
+4)repeat 1-3 for array length - 1 
