@@ -1,0 +1,6 @@
+1)set 2 variables for first and last of the array
+2)find the middle using first and last (Math.floor((first + last) / 2))
+3)then compare middle element value to the value that we are seeking for, if its equal to middle then we found the index of it
+4)if its bigger than middle then put (middle + 1) in the first variables because our value is in the second half of array
+5)if its smaller than middle then put (middle - 1) in the last variables because our value is in the first half of array
+6)repeat 2-5
