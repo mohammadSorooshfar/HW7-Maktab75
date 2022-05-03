@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-content:space-between;
+    width: 50vw;
+    height: 50vh;
+}
+button{
+    color: white;
+    border: none;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    animation-name: buttonAnimation;
+    animation-duration: 8s;
+}
+button:hover{
+    opacity: 0.5;
+}
+button:nth-child(1){
+    background-color: rgb(49, 49, 219);
+}
+button:nth-child(2){
+    background-color: rgb(13, 154, 13);
+}
+button:nth-child(3){
+    background-color: rgb(230, 108, 14);
+}
+button:nth-child(4){
+    background-color: red;
+}
+button:nth-child(5){
+    border-radius: 30px;
+    background-color: rgb(49, 49, 219);
+}
+button:nth-child(6){
+    border-radius: 30px;
+    background-color: rgb(13, 154, 13);
+}
+button:nth-child(7){
+    border-radius: 30px;
+    background-color: rgb(230, 108, 14);
+}
+button:nth-child(8){
+    border-radius: 30px;
+    background-color: red;
+}
+button:nth-child(9){
+    color: rgb(49, 49, 219);
+    border:1px solid rgb(49, 49, 219);
+}
+button:nth-child(10){
+    color: rgb(13, 154, 13);
+    border:1px solid rgb(13, 154, 13);
+}
+button:nth-child(11){
+    color: rgb(230, 108, 14);
+    border:1px solid rgb(230, 108, 14);
+}
+button:nth-child(12){
+    color: red;
+    border:1px solid red;
+}
+
+button:nth-child(9):hover{
+    background-color: rgb(49, 49, 219);
+    color: white;
+    }
+button:nth-child(10):hover{
+    background-color: rgb(13, 154, 13);
+    color: white;
+    }
+button:nth-child(11):hover{
+    background-color: rgb(230, 108, 14);
+    color: white;
+    
+}
+button:nth-child(12):hover{
+    background-color: red;
+    color: white;
+}
+@keyframes buttonAnimation {
+    0%   {transform: rotateX(0deg);}
+    100% {transform: rotateX(360deg);}
+  }
