@@ -1,0 +1,8 @@
+1) if number is bigger than 186 then its in the second half of year so number-=186
+2) calculate season number by dividing number with 90 (that is the number of days in last 2 seasons) then plus two to it
+3) calculate month number by dividing number with 30 (that is the number of days in last 6 months) then plus six to it
+4) calculate day number by dividing number with 30 and the division remaining is the answer 
+5) if number is smaller than 186 then its in the first half of year 
+6) calculate season number by dividing number with 93 (that is the number of days in first 2 seasons) 
+7) calculate month number by dividing number with 31 (that is the number of days in first 6 months)
+8) calculate day number by dividing number with 31 and the division remaining is the answer
