@@ -1,0 +1,6 @@
+1) get the first digit of number (number%10)
+2) check if number%2 is zero or one 
+3) if its zero add to the counter of even
+4) if its one add to the counter of odd
+5) if the digit is zero then add counter of even and counter of zero 
+6) if number is bigger than 1 then divide it to ten and repeat 1-5
