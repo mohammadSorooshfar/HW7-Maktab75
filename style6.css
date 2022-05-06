@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+}
+header span b{
+    font-size: 30pt;
+}
+.email-call{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+.email-call div{
+    position: relative;
+    padding-top: 5%;
+    width: 50%;
+    height: 100%;
+}
+.icon-left{
+    position: absolute;
+    top: 35%;
+    left: -15%;
+}
+header button{
+    width: 10%;
+    height: 50%;
+    color: wheat;
+    background-color: rgb(255, 106, 0);
+    border: none;
+}
+/* nav */
+nav {
+    display: flex;
+    background-color: rgb(1, 1, 96);
+    width: 80%;
+    height: 10%;
+    align-items: center;
+}
+nav a{
+    margin-left:3% ;
+    color: white;
+    text-decoration: none;
+}
+nav a:nth-child(1){
+    color: rgb(255, 221, 0);
+}
+nav div {
+    margin-left: 25%;
+    position: relative;
+    width: 30%;
+    height: 70%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 244px;
+}
+
+#search-icon {
+    position: absolute;
+    height: 40%;
+    top: 28%;
+    left: 88%;
+    filter: brightness(0) invert(1);
+}
+
+#header-search {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    padding: 10px 10px;
+    border: none;
+    background-color: transparent;
+    top: 6%;
+    left: 8%;
+}
+#header-search::placeholder{
+    color: white;
+}
+/* mid */
+.big-photo{
+    position: relative;
+    width: 100%;
+    height: 55%;
+    background-image: url(./assets/tz7n-7vqceaq86dprdnzag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.big-photo div{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.big-photo p{
+    width: 50%;
+    margin: 10px 0px;
+}
+.big-photo button{
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+    color: wheat;
+    background-color: rgb(255, 106, 0);
+    border: none;
+    border-radius: 20px;
+}
+.cards {
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    align-items: center;
+}
+.cards div:nth-child(2n){
+    background-color: rgb(1, 1, 96);
+
+}
+.cards div p {
+    margin-top: 10px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+.cards div svg{
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
