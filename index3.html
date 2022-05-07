@@ -4,16 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style3.css" />
     <title>Document</title>
   </head>
   <body>
-    <div>
-      <div class="main-divs">
-        <div class="big-images">
-          <img src="./assets3/wildfoote.jpg" alt="" />
+    <div id="top">
+      <div id="background"></div>
+      <nav>
+        <a href="#" id="title">JOLENE JOLENE</a>
+        <div class="threeLinks">
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT</a>
+          <button>SIGNUP</button>
         </div>
-        <div class="content">
+      </nav>
+      <header>
+        <h1>A New Wave of Knitwear</h1>
+        <div><img src="./assets3/firs photo.jpg" alt="" /></div>
+      </header>
+    </div>
+    <h3>
+      One-of-a-kind yarns and accessories handcrafted with love in Seattle,
+      washington
+    </h3>
+    <main>
+      <div class="main-divs">
+        <div
+          class="big-images first-big-image"
+          data-aos="fade-right"
+          data-aos-duration="3000"
+        ></div>
+        <div class="content" data-aos="flip-right" data-aos-duration="3000">
           <h2>Fall/Winter yarns</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -24,14 +46,7 @@
         </div>
       </div>
       <div class="main-divs">
-        <div class="big-images">
-          <img
-            class="big-images"
-            src="./assets3/100g-ball-bundles-super-chunky-yarn-lauren-aston-designs9.jpg"
-            alt=""
-          />
-        </div>
-        <div class="content">
+        <div class="content" data-aos="flip-down" data-aos-duration="3000">
           <h2>knit 1, purl 2</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -40,12 +55,19 @@
           </p>
           <button>Shop</button>
         </div>
+        <div class="big-images" data-aos="fade-left" data-aos-duration="3000">
+          <img
+            class="big-images"
+            src="./assets3/100g-ball-bundles-super-chunky-yarn-lauren-aston-designs9.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <div class="main-divs">
-        <div class="big-images">
+        <div class="big-images" data-aos="fade-right" data-aos-duration="3000">
           <img class="big-images" src="./assets3/hat.webp" alt="" />
         </div>
-        <div class="content">
+        <div class="content" data-aos="flip-up" data-aos-duration="3000">
           <h2>Cozy up</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -55,6 +77,92 @@
           <button>Shop</button>
         </div>
       </div>
+    </main>
+    <h3>Small Business Supporting Big Ideas</h3>
+    <div class="supporting">
+      <div
+        class="supporting-content"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <img src="./assets3/hat1.jpg" alt="" />
+
+        <h5>BUILDING COMMUNITY</h5>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quo
+          consectetur doloribus sapiente nisi quae minus aperiam dolores saepe
+          quibusdam!
+        </p>
+      </div>
+      <div
+        class="supporting-content"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <img src="./assets3/hat2.webp" alt="" />
+
+        <h5>SUSTAINABLE FASHION</h5>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quo
+          consectetur doloribus sapiente nisi quae minus aperiam dolores saepe
+          quibusdam!
+        </p>
+      </div>
+      <div
+        class="supporting-content"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <img src="./assets3/hat3.webp" alt="" />
+        <h5>GIVING BACK</h5>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quo
+          consectetur doloribus sapiente nisi quae minus aperiam dolores saepe
+          quibusdam!
+        </p>
+      </div>
     </div>
+    <div class="yellow">
+      <h2 data-aos="zoom-out-left">
+        Free shipping when you spend $50 or more.
+      </h2>
+      <button>SHOP NOW</button>
+    </div>
+    <footer>
+      <div class="left-footer">
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <h4>SHOP</h4>
+          <p>Yarns</p>
+          <p>Hats</p>
+          <p>Scarves</p>
+          <p>Stockists</p>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="2000">
+          <h4>ABOUT US</h4>
+          <p>Our Story</p>
+          <p>Press</p>
+          <p>Blog</p>
+          <p>Jobs</p>
+        </div>
+      </div>
+      <div class="right-footer">
+        <p>Wouldn't knit be terrible to miss shop updates?</p>
+        <div>
+          <input
+            data-aos="fade-down-right"
+            type="text"
+            placeholder="youremail@gmail.com"
+            data-aos-duration="2000"
+          />
+          <button data-aos="fade-down-left" data-aos-duration="2000">
+            SIGN UP
+          </button>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

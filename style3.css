@@ -6,22 +6,104 @@ body,html{
     width: 100%;
     height: 100%;
 }
+#top{
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+#background{
+    background-color: rgb(0, 0, 90);
+    transform: skewY(-10deg);
+    position: absolute;
+    top: -322px;
+    width: 100%;
+    height: 500px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    margin: 1% 5% 1%;
+}
+#title{
+    color: rgb(255, 179, 0);
+}
+.threeLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 0 5%;
+}
+.threeLinks a{
+    margin-right: 3%;
+    color: white;
+}
+.threeLinks button{
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    padding: 2%;
+    border: none;
+}
+/* header */
+header{
+    position: absolute;
+    width: 100%;
+    top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    width: 25%;
+    margin: 0 5%;
+}
+header img{
+    width: 100%;
+    box-shadow: 1px 1px 10px rgb(48, 48, 48);
+}
+header h1{
+    width: 20%;
+    margin: 0 5%;
+    font-size: 25pt;
+    margin-top: 5%;
+    color: white;
+}
+/* h3 */
+h3{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+/* main */
 main{
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
 }
 .main-divs{
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 33%;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
 }
 .big-images{
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
+}
+.first-big-image{
+    background-image: url(./assets3/wildfoote.jpg);
+    background-size: cover;
 }
 .big-images img{
     max-width: 100%;
@@ -35,7 +117,7 @@ main{
     margin-bottom: 10px;
 }
 .content p{
-    width: 40%;
+    width: 60%;
     margin-bottom: 10px;
 }
 .content button{
@@ -44,6 +126,99 @@ main{
     border-radius: 30px;
     background-color: orangered;
     width: 10%;
-    height: 10%;
+    height: 15%;
     padding: 5px;
+}
+/* supporting */
+.supporting{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.supporting-content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.supporting-content img{
+    width: 80%;
+    height: 60%;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
+.supporting-content h5{
+    margin-bottom: 2%;
+
+}
+.supporting-content p{
+    width: 80%;
+}
+/* yellow */
+.yellow{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 145, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 90);
+}
+.yellow button{
+    margin-top: 2%;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 0, 90);
+}
+/* footer */
+footer{
+    background-color: rgb(0, 0, 90);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+    color: white;
+    padding: 3% 0;
+}
+.left-footer{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-footer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.right-footer p{
+    font-size: 15pt;
+}
+.right-footer div{
+    margin-top: 10%;
+    height: 40%;
+}
+.right-footer input{
+    background-color: rgba(217, 217, 217, 0.4);
+    border: none;
+    height: 30%;
+    padding: 0 5%;
+}
+.right-footer input::placeholder{
+    color: white;
+}
+.right-footer button{
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    margin-left: 5%;
+    padding: 3% 7%;
+    border: none;
 }
